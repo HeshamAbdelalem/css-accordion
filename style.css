@@ -25,7 +25,7 @@ details {
 }
 
 summary {
-  background-color: #ddd;
+  background-color: #f0f0f0;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   padding: 1rem;
@@ -42,8 +42,8 @@ summary p {
 summary + p {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
-  color: #777;
-  background-color: #c7c6c6;
+  color: #111;
+  background-color: #dddddd;
   padding: 1rem;
   transition: all 0.3s ease;
 }

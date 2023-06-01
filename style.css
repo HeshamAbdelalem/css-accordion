@@ -93,7 +93,11 @@ details .up {
   body {
     padding: 0.5rem;
   }
+  .accordion {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
   .container {
-    width: 95%;
+    width: 100%;
   }
 }

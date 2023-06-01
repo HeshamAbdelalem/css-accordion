@@ -63,7 +63,7 @@ details[open] .up {
   /* transform: translate(-50%, -50%); */
 }
 
-details[open] > summary:first-of-type {
+details summary {
   list-style-type: none;
 }
 

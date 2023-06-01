@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blanchedalmond;
+  padding: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.accordion {
+  margin: 2rem;
+}
+
+details {
+  font-size: 1.5rem;
+  transition: all 500ms ease-in-out;
+}
+
+summary {
+  background-color: #ddd;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+summary p {
+  display: block;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+
+summary + p {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: #777;
+  background-color: #c7c6c6;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.open-close {
+  position: relative;
+  margin-right: 1rem;
+}
+
+details[open] .up {
+  background-color: yellow;
+  transform: rotate(90deg);
+  top: 0;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+  /* transform: translate(-50%, -50%); */
+}
+details .up {
+  transition: all 500ms ease-in-out;
+}
+
+.up {
+  display: inline-block;
+  background-color: red;
+  width: 0.25rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.down {
+  display: inline-block;
+  background-color: red;
+  height: 0.25rem;
+  width: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
